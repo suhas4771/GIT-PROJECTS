@@ -61,7 +61,7 @@ def check_guess():
     attempts += 1
 
     if guess == number:
-        messagebox.showinfo("THE GAME", f"🎉 CONGRATULATIONS! 🎉\nYour guess is correct!\nAttempts: {attempts}")
+        messagebox.showinfo("THE GAME", f" CONGRATULATIONS! \nYour guess is correct!\nAttempts: {attempts}")
         window1.destroy()  # close after win
     elif guess > max_num:
         messagebox.showwarning("THE GAME", "Your number is out of range!\nTry again!")
